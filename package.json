@@ -1,0 +1,20 @@
+{
+  "name": "asciidoc-extenion-test",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "^1.1.42"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "asciidoctor": "^3.0.4",
+    "jest": "^29.7.0",
+    "vitest": "^2.1.8"
+  }
+}
