@@ -15,5 +15,7 @@ export const Asciidoctor = asciidoctor()
 export const registry = Asciidoctor.Extensions.create()
 componentMacros(registry)
 
+console.log("loaded inline macros:", registry.getInlineMacros().length)
+
 const html = Asciidoctor.convert('c:blank[]', { 'to_file': false, 'extension_registry': registry })
 console.log(html)
