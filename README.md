@@ -6,7 +6,7 @@ To install dependencies:
 bun install
 ```
 
-To run (this should run correctly):
+To run (this should work correctly):
 
 ```bash
 bun run index.ts
